@@ -1,0 +1,2128 @@
+---------------------------------------------------------------
+[2019-05-04T10:12:10+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.183349s] [吞吐率：5.45req/s] [内存消耗：1,543.66kb] [文件加载：66]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://www.tpdachuang.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '',
+  'email' => '',
+  'mobile' => '',
+  'password' => '',
+  'password_confirm' => '',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T10:19:04+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.068247s] [吞吐率：14.65req/s] [内存消耗：1,418.11kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.tpdachuang.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '100',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868787',
+  'password' => '111111',
+  'password_confirm' => '111111',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T10:19:04+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.147931s] [吞吐率：6.76req/s] [内存消耗：2,361.91kb] [文件加载：79]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '100',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868787',
+  'password' => '111111',
+  'password_confirm' => '111111',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006183s ] mysql:host=127.0.0.1;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.019536s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:764]
+---------------------------------------------------------------
+[2019-05-04T10:40:47+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.083125s] [吞吐率：12.03req/s] [内存消耗：1,543.66kb] [文件加载：66]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.tpdachuang.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '94',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868763',
+  'password' => '111',
+  'password_confirm' => '111',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T10:40:47+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.111931s] [吞吐率：8.93req/s] [内存消耗：2,361.77kb] [文件加载：79]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '94',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868763',
+  'password' => '111',
+  'password_confirm' => '111',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004952s ] mysql:host=127.0.0.1;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.005015s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:764]
+---------------------------------------------------------------
+[2019-05-04T10:40:51+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.081601s] [吞吐率：12.25req/s] [内存消耗：1,417.88kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.tpdachuang.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '',
+  'email' => '',
+  'mobile' => '',
+  'password' => '',
+  'password_confirm' => '',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T10:41:08+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.073547s] [吞吐率：13.60req/s] [内存消耗：1,417.97kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.tpdachuang.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '92',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'email' => '174238530@qq.com',
+  'mobile' => '17337868763',
+  'password' => '11111',
+  'password_confirm' => '111111',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T10:41:50+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.073619s] [吞吐率：13.58req/s] [内存消耗：1,417.97kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.tpdachuang.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '81',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '333',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868763',
+  'password' => '',
+  'password_confirm' => '',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T10:49:25+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.083001s] [吞吐率：12.05req/s] [内存消耗：1,417.97kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://www.tpdachuang.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '81',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '333',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868763',
+  'password' => '',
+  'password_confirm' => '',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T10:49:39+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.082088s] [吞吐率：12.18req/s] [内存消耗：1,418.02kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.tpdachuang.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '100',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868763',
+  'password' => '111111',
+  'password_confirm' => '111111',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T10:49:52+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.082890s] [吞吐率：12.06req/s] [内存消耗：1,543.71kb] [文件加载：66]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://www.tpdachuang.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '100',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868763',
+  'password' => '111111',
+  'password_confirm' => '111111',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T10:49:53+08:00] ::1 GET www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.086343s] [吞吐率：11.58req/s] [内存消耗：1,416.52kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T10:50:05+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.117461s] [吞吐率：8.51req/s] [内存消耗：2,361.81kb] [文件加载：79]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '100',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868763',
+  'password' => '111111',
+  'password_confirm' => '111111',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005131s ] mysql:host=127.0.0.1;dbname=zh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.003745s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:764]
+---------------------------------------------------------------
+[2019-05-04T10:50:06+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.068794s] [吞吐率：14.54req/s] [内存消耗：1,418.02kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.tpdachuang.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '100',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868763',
+  'password' => '111111',
+  'password_confirm' => '111111',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T10:52:52+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.117811s] [吞吐率：8.49req/s] [内存消耗：1,418.02kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://www.tpdachuang.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '100',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868763',
+  'password' => '111111',
+  'password_confirm' => '111111',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T10:53:05+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.117159s] [吞吐率：8.54req/s] [内存消耗：2,360.94kb] [文件加载：79]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '94',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'email' => '1742385332@qq.com',
+  'mobile' => '17337868763',
+  'password' => '111111',
+  'password_confirm' => '111111',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011406s ] mysql:host=127.0.0.1;dbname=aa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.003323s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:764]
+---------------------------------------------------------------
+[2019-05-04T10:53:06+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.071582s] [吞吐率：13.97req/s] [内存消耗：1,417.97kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.tpdachuang.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '94',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'email' => '1742385332@qq.com',
+  'mobile' => '17337868763',
+  'password' => '111111',
+  'password_confirm' => '111111',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T10:55:49+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.078253s] [吞吐率：12.78req/s] [内存消耗：1,417.97kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://www.tpdachuang.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '94',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'email' => '1742385332@qq.com',
+  'mobile' => '17337868763',
+  'password' => '111111',
+  'password_confirm' => '111111',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T10:55:53+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.126188s] [吞吐率：7.92req/s] [内存消耗：2,360.95kb] [文件加载：79]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '88',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868763',
+  'password' => '',
+  'password_confirm' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012058s ] mysql:host=127.0.0.1;port=3306;dbname=aa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.004175s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:764]
+---------------------------------------------------------------
+[2019-05-04T10:55:54+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.079294s] [吞吐率：12.61req/s] [内存消耗：1,417.97kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.tpdachuang.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '88',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868763',
+  'password' => '',
+  'password_confirm' => '',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T11:02:03+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.084315s] [吞吐率：11.86req/s] [内存消耗：1,543.66kb] [文件加载：66]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|2; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://www.tpdachuang.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '88',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868763',
+  'password' => '',
+  'password_confirm' => '',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T11:02:09+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.114177s] [吞吐率：8.76req/s] [内存消耗：2,360.95kb] [文件加载：79]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|2; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '88',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868763',
+  'password' => '',
+  'password_confirm' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003975s ] mysql:host=127.0.0.1;port=3306;dbname=aa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.005161s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:764]
+---------------------------------------------------------------
+[2019-05-04T11:02:10+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.079885s] [吞吐率：12.52req/s] [内存消耗：1,417.97kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|2; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.tpdachuang.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '88',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868763',
+  'password' => '',
+  'password_confirm' => '',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T11:10:30+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.082984s] [吞吐率：12.05req/s] [内存消耗：1,417.97kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|2; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://www.tpdachuang.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '88',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868763',
+  'password' => '',
+  'password_confirm' => '',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T11:13:06+08:00] ::1 GET www.tpdachuang.com/index.php/index/user/test
+[运行时间：0.134457s] [吞吐率：7.44req/s] [内存消耗：2,074.83kb] [文件加载：66]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004927s ] mysql:host=127.0.0.1;port=3306;dbname=aa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.005308s ]
+[ sql ] [ SQL ] SELECT `name` FROM `zh_user` LIMIT 1 [ RunTime:0.001118s ]
+---------------------------------------------------------------
+[2019-05-04T11:21:25+08:00] ::1 GET www.tpdachuang.com/index.php/index/user/test
+[运行时间：0.074668s] [吞吐率：13.39req/s] [内存消耗：1,380.25kb] [文件加载：65]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-04T11:21:33+08:00] ::1 GET www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.081108s] [吞吐率：12.33req/s] [内存消耗：1,543.47kb] [文件加载：66]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T11:21:45+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.110489s] [吞吐率：9.05req/s] [内存消耗：2,360.96kb] [文件加载：79]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '88',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'email' => '1742385322@qq.com',
+  'mobile' => '17337868763',
+  'password' => '111',
+  'password_confirm' => '111',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004630s ] mysql:host=127.0.0.1;port=3306;dbname=aa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.005812s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:764]
+---------------------------------------------------------------
+[2019-05-04T11:21:46+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.075409s] [吞吐率：13.26req/s] [内存消耗：1,418.22kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.tpdachuang.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '88',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'email' => '1742385322@qq.com',
+  'mobile' => '17337868763',
+  'password' => '111',
+  'password_confirm' => '111',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T11:24:12+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.086113s] [吞吐率：11.61req/s] [内存消耗：1,545.05kb] [文件加载：66]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://www.tpdachuang.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '88',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'email' => '1742385322@qq.com',
+  'mobile' => '17337868763',
+  'password' => '111',
+  'password_confirm' => '111',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T11:24:24+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.112572s] [吞吐率：8.88req/s] [内存消耗：2,360.94kb] [文件加载：79]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '80',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '333',
+  'email' => '174238530@qq.com',
+  'mobile' => '17337868999',
+  'password' => '',
+  'password_confirm' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002772s ] mysql:host=127.0.0.1;port=3306;dbname=aa;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.001467s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:764]
+---------------------------------------------------------------
+[2019-05-04T11:24:25+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.079028s] [吞吐率：12.65req/s] [内存消耗：1,418.36kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.tpdachuang.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '80',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '333',
+  'email' => '174238530@qq.com',
+  'mobile' => '17337868999',
+  'password' => '',
+  'password_confirm' => '',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T11:51:35+08:00] ::1 GET www.tpdachuang.com/index.php/index/test/test1
+[运行时间：0.110582s] [吞吐率：9.04req/s] [内存消耗：2,279.33kb] [文件加载：69]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013530s ] mysql:host=127.0.0.1;dbname=zhh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.004218s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zh_user` WHERE  `email` = 'peter@qq.com' LIMIT 1 [ RunTime:0.001236s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zh_user` WHERE  `mobile` = '17337868763' LIMIT 1 [ RunTime:0.000763s ]
+---------------------------------------------------------------
+[2019-05-04T11:51:46+08:00] ::1 GET www.tpdachuang.com/index.php/index/test/test1
+[运行时间：0.111253s] [吞吐率：8.99req/s] [内存消耗：2,279.71kb] [文件加载：69]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011555s ] mysql:host=127.0.0.1;dbname=zhh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.003052s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zh_user` WHERE  `email` = 'peter@qq.com' LIMIT 1 [ RunTime:0.000766s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zh_user` WHERE  `mobile` = '17337868563' LIMIT 1 [ RunTime:0.000813s ]
+---------------------------------------------------------------
+[2019-05-04T11:52:42+08:00] ::1 GET www.tpdachuang.com/index.php/index/test/test1
+[运行时间：0.114126s] [吞吐率：8.76req/s] [内存消耗：2,299.24kb] [文件加载：72]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003312s ] mysql:host=127.0.0.1;dbname=zhh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.003624s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zh_user` WHERE  `email` = 'peter@qq.com' LIMIT 1 [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zh_user` WHERE  `mobile` = '17337868563' LIMIT 1 [ RunTime:0.000805s ]
+[ error ] [0]variable type error： boolean[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\Response.php:403]
+---------------------------------------------------------------
+[2019-05-04T11:55:53+08:00] ::1 GET www.tpdachuang.com/index.php/index/test/test1
+[运行时间：0.129472s] [吞吐率：7.72req/s] [内存消耗：2,279.65kb] [文件加载：69]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011634s ] mysql:host=127.0.0.1;dbname=zhh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.004217s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zh_user` WHERE  `email` = 'peter@qq.com' LIMIT 1 [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zh_user` WHERE  `mobile` = '17337868563' LIMIT 1 [ RunTime:0.005900s ]
+---------------------------------------------------------------
+[2019-05-04T11:55:55+08:00] ::1 GET www.tpdachuang.com/index.php/index/test/test1
+[运行时间：0.099401s] [吞吐率：10.06req/s] [内存消耗：2,279.65kb] [文件加载：69]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011416s ] mysql:host=127.0.0.1;dbname=zhh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.002558s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zh_user` WHERE  `email` = 'peter@qq.com' LIMIT 1 [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT `id` FROM `zh_user` WHERE  `mobile` = '17337868563' LIMIT 1 [ RunTime:0.000817s ]
+---------------------------------------------------------------
+[2019-05-04T11:56:02+08:00] ::1 GET www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.086289s] [吞吐率：11.59req/s] [内存消耗：1,543.61kb] [文件加载：66]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|2; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T11:56:11+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.124331s] [吞吐率：8.04req/s] [内存消耗：2,360.95kb] [文件加载：79]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|2; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '98',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868763',
+  'password' => '11111',
+  'password_confirm' => '11111',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002708s ] mysql:host=127.0.0.1;dbname=zhh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.002863s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:764]
+---------------------------------------------------------------
+[2019-05-04T11:56:12+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.074428s] [吞吐率：13.44req/s] [内存消耗：1,418.38kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|2; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.tpdachuang.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '98',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868763',
+  'password' => '11111',
+  'password_confirm' => '11111',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T12:11:53+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.081399s] [吞吐率：12.29req/s] [内存消耗：1,418.38kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|2; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://www.tpdachuang.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '98',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868763',
+  'password' => '11111',
+  'password_confirm' => '11111',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T12:12:08+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.123200s] [吞吐率：8.12req/s] [内存消耗：2,360.92kb] [文件加载：79]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|2; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '93',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '4444',
+  'email' => '572936013@qq.com',
+  'mobile' => '17337868787',
+  'password' => '111111',
+  'password_confirm' => '111111',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004729s ] mysql:host=127.0.0.1;dbname=zhh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.002363s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:764]
+---------------------------------------------------------------
+[2019-05-04T12:12:09+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.082351s] [吞吐率：12.14req/s] [内存消耗：1,418.36kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|2; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.tpdachuang.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '93',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '4444',
+  'email' => '572936013@qq.com',
+  'mobile' => '17337868787',
+  'password' => '111111',
+  'password_confirm' => '111111',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T13:12:34+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.081856s] [吞吐率：12.22req/s] [内存消耗：1,545.05kb] [文件加载：66]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|2; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://www.tpdachuang.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '93',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '4444',
+  'email' => '572936013@qq.com',
+  'mobile' => '17337868787',
+  'password' => '111111',
+  'password_confirm' => '111111',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T13:12:45+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.115123s] [吞吐率：8.69req/s] [内存消耗：2,360.98kb] [文件加载：79]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|2; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '100',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868787',
+  'password' => '111111',
+  'password_confirm' => '111111',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005470s ] mysql:host=127.0.0.1;dbname=zhh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.002386s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:764]
+---------------------------------------------------------------
+[2019-05-04T13:12:46+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.073415s] [吞吐率：13.62req/s] [内存消耗：1,418.41kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|2; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.tpdachuang.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '100',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868787',
+  'password' => '111111',
+  'password_confirm' => '111111',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T14:58:53+08:00] ::1 GET www.tpdachuang.com/index.php/index/regist/index
+[运行时间：0.099068s] [吞吐率：10.09req/s] [内存消耗：1,483.02kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\regist\index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-05-04T15:11:35+08:00] ::1 GET www.tpdachuang.com/index.php/index/regist/register
+[运行时间：0.220381s] [吞吐率：4.54req/s] [内存消耗：1,336.88kb] [文件加载：61]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION)[F:\PHPTutorial\WWW\tpdachuang\application\index\controller\Regist.php:51]
+---------------------------------------------------------------
+[2019-05-04T15:25:41+08:00] ::1 GET www.tpdachuang.com/index.php/index/regist/register
+[运行时间：0.078440s] [吞吐率：12.75req/s] [内存消耗：1,336.31kb] [文件加载：62]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-04T15:25:45+08:00] ::1 GET www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.103279s] [吞吐率：9.68req/s] [内存消耗：1,543.61kb] [文件加载：66]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|2; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T15:25:55+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.146706s] [吞吐率：6.82req/s] [内存消耗：2,360.93kb] [文件加载：79]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|2; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '94',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868999',
+  'password' => '111',
+  'password_confirm' => '111',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009965s ] mysql:host=127.0.0.1;dbname=zhh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.003336s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:764]
+---------------------------------------------------------------
+[2019-05-04T15:25:56+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.075536s] [吞吐率：13.24req/s] [内存消耗：1,418.36kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|2; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.tpdachuang.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '94',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868999',
+  'password' => '111',
+  'password_confirm' => '111',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T15:29:35+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.102384s] [吞吐率：9.77req/s] [内存消耗：1,545.05kb] [文件加载：66]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|2; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://www.tpdachuang.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '94',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'wangruixia',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868999',
+  'password' => '111',
+  'password_confirm' => '111',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T15:29:48+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.203734s] [吞吐率：4.91req/s] [内存消耗：2,360.92kb] [文件加载：79]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|2; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '86',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '333',
+  'email' => '572936013@qq.com',
+  'mobile' => '17337868787',
+  'password' => '111',
+  'password_confirm' => '111',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004928s ] mysql:host=127.0.0.1;dbname=zhh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.004207s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:764]
+---------------------------------------------------------------
+[2019-05-04T15:29:49+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.080595s] [吞吐率：12.41req/s] [内存消耗：1,418.36kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|2; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.tpdachuang.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '86',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '333',
+  'email' => '572936013@qq.com',
+  'mobile' => '17337868787',
+  'password' => '111',
+  'password_confirm' => '111',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T15:51:51+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.352771s] [吞吐率：2.83req/s] [内存消耗：1,545.05kb] [文件加载：66]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|2; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://www.tpdachuang.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '86',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '333',
+  'email' => '572936013@qq.com',
+  'mobile' => '17337868787',
+  'password' => '111',
+  'password_confirm' => '111',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T15:52:42+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.361027s] [吞吐率：2.77req/s] [内存消耗：2,360.46kb] [文件加载：79]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|3; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '',
+  'email' => '',
+  'mobile' => '',
+  'password' => '',
+  'password_confirm' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016356s ] mysql:host=127.0.0.1;dbname=zhh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.003067s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:764]
+---------------------------------------------------------------
+[2019-05-04T15:52:43+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.112165s] [吞吐率：8.92req/s] [内存消耗：1,418.27kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|3; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.tpdachuang.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '',
+  'email' => '',
+  'mobile' => '',
+  'password' => '',
+  'password_confirm' => '',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T15:54:50+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/register
+[运行时间：0.286108s] [吞吐率：3.50req/s] [内存消耗：1,544.96kb] [文件加载：66]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|3; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://www.tpdachuang.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '48',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '',
+  'email' => '',
+  'mobile' => '',
+  'password' => '',
+  'password_confirm' => '',
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T15:54:58+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.212194s] [吞吐率：4.71req/s] [内存消耗：2,360.48kb] [文件加载：79]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|3; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '58',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '',
+  'email' => '',
+  'mobile' => '',
+  'password' => '4214',
+  'password_confirm' => '123214',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002476s ] mysql:host=127.0.0.1;dbname=zhh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.003783s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:764]
+---------------------------------------------------------------
+[2019-05-04T15:55:20+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.189939s] [吞吐率：5.26req/s] [内存消耗：2,360.88kb] [文件加载：79]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|3; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '74',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '34124',
+  'email' => '12321',
+  'mobile' => 'qw3123',
+  'password' => '4214',
+  'password_confirm' => '123214',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004325s ] mysql:host=127.0.0.1;dbname=zhh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.001974s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'status' doesn't have a default value[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:764]
+---------------------------------------------------------------
+[2019-05-04T15:56:57+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.129312s] [吞吐率：7.73req/s] [内存消耗：1,291.48kb] [文件加载：58]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|3; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '74',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '34124',
+  'email' => '12321',
+  'mobile' => 'qw3123',
+  'password' => '4214',
+  'password_confirm' => '123214',
+)
+---------------------------------------------------------------
+[2019-05-04T16:00:36+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.243495s] [吞吐率：4.11req/s] [内存消耗：1,300.75kb] [文件加载：59]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|3; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '74',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '34124',
+  'email' => '12321',
+  'mobile' => 'qw3123',
+  'password' => '4214',
+  'password_confirm' => '123214',
+)
+---------------------------------------------------------------
+[2019-05-04T16:01:12+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.295985s] [吞吐率：3.38req/s] [内存消耗：2,320.63kb] [文件加载：74]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|3; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '74',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '34124',
+  'email' => '12321',
+  'mobile' => 'qw3123',
+  'password' => '4214',
+  'password_confirm' => '123214',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018964s ] mysql:host=127.0.0.1;dbname=zhh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.008614s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user` (`name` , `email` , `mobile` , `password`) VALUES ('34124' , '12321' , 'qw3123' , '4214') [ RunTime:0.001945s ]
+---------------------------------------------------------------
+[2019-05-04T16:05:12+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.218563s] [吞吐率：4.58req/s] [内存消耗：2,321.02kb] [文件加载：74]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|3; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '74',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '34124',
+  'email' => '12321',
+  'mobile' => 'qw3123',
+  'password' => '4214',
+  'password_confirm' => '123214',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003679s ] mysql:host=127.0.0.1;dbname=zhh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.003171s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user` (`name` , `email` , `mobile` , `password`) VALUES ('34124' , '12321' , 'qw3123' , '4214') [ RunTime:0.000642s ]
+---------------------------------------------------------------
+[2019-05-04T16:05:19+08:00] ::1 GET www.tpdachuang.com/index.php/index/user/register.html
+[运行时间：0.242938s] [吞吐率：4.12req/s] [内存消耗：1,544.55kb] [文件加载：66]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|3; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T16:05:49+08:00] ::1 GET www.tpdachuang.com/index.php/index/user/register.html
+[运行时间：0.165199s] [吞吐率：6.05req/s] [内存消耗：1,544.61kb] [文件加载：66]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|3; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T16:06:47+08:00] ::1 GET www.tpdachuang.com/index.php/index/user/register.html
+[运行时间：0.168582s] [吞吐率：5.93req/s] [内存消耗：1,417.97kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|3; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T16:07:18+08:00] ::1 GET www.tpdachuang.com/index.php/index/user/register.html
+[运行时间：0.395697s] [吞吐率：2.53req/s] [内存消耗：1,544.61kb] [文件加载：66]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|3; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T16:07:58+08:00] ::1 GET www.tpdachuang.com/index.php/index/user/register.html
+[运行时间：0.171964s] [吞吐率：5.82req/s] [内存消耗：1,544.97kb] [文件加载：66]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|3; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T16:08:09+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.133766s] [吞吐率：7.48req/s] [内存消耗：2,321.11kb] [文件加载：74]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|3; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '96',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868763',
+  'password' => '1231412',
+  'password_confirm' => '4214124',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004581s ] mysql:host=127.0.0.1;dbname=zhh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.003580s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user` (`name` , `email` , `mobile` , `password`) VALUES ('1111' , '1742385301@qq.com' , '17337868763' , '1231412') [ RunTime:0.000713s ]
+---------------------------------------------------------------
+[2019-05-04T16:08:41+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.118257s] [吞吐率：8.46req/s] [内存消耗：2,320.87kb] [文件加载：74]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|3; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '96',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'email' => '1742385301@qq.com',
+  'mobile' => '17337868763',
+  'password' => '1231412',
+  'password_confirm' => '4214124',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006647s ] mysql:host=127.0.0.1;dbname=zhh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.004612s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user` (`name` , `email` , `mobile` , `password`) VALUES ('1111' , '1742385301@qq.com' , '17337868763' , '1231412') [ RunTime:0.001074s ]
+---------------------------------------------------------------
+[2019-05-04T16:09:25+08:00] ::1 GET www.tpdachuang.com/index.php/index/user/register.html
+[运行时间：0.184011s] [吞吐率：5.43req/s] [内存消耗：1,544.73kb] [文件加载：66]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|3; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\user\register.html [ array (
+  0 => 'title',
+) ]
+---------------------------------------------------------------
+[2019-05-04T16:09:58+08:00] ::1 POST www.tpdachuang.com/index.php/index/user/insert.html
+[运行时间：0.190701s] [吞吐率：5.24req/s] [内存消耗：2,320.86kb] [文件加载：74]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|3; pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.tpdachuang.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '105',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '大海',
+  'email' => 'wqzbxh@163.com',
+  'mobile' => '1351216955*',
+  'password' => '123456',
+  'password_confirm' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002779s ] mysql:host=127.0.0.1;dbname=zhh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zh_user` [ RunTime:0.010487s ]
+[ sql ] [ SQL ] INSERT INTO `zh_user` (`name` , `email` , `mobile` , `password`) VALUES ('大海' , 'wqzbxh@163.com' , '1351216955*' , '123456') [ RunTime:0.002231s ]
+---------------------------------------------------------------
+[2019-05-04T16:09:59+08:00] ::1 GET www.tpdachuang.com/index.php/index/index/index.html
+[运行时间：0.214979s] [吞吐率：4.65req/s] [内存消耗：1,477.35kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7170657280; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tpdachuang.com/index.php/index/user/register.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\index\index.html [ array (
+) ]

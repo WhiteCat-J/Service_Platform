@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>中部创新创业服务平台</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist//static/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"
+          type="text/css">
+    <link rel="stylesheet" href="/static/css/mainPage.css" type="text/css">
+    <link rel="stylesheet" href="/static/css/bootstrapv3.min.css">
+    <link rel="stylesheet" href="/static/css/qunit-1.11.0.css">
+</head>
+<body style="width:100%">
+
+<!--右侧栏开始-->
+<div class="side-nav" role="navigation">
+    <ul class="nav-side-nav">
+        <li><a class="tooltip-side-nav" href="#onePage">顶部</a></li>
+        <li><a class="tooltip-side-nav" href="#twoPage">菜单</a></li>
+        <li><a class="tooltip-side-nav" href="#threePage">简介</a></li>
+        <li><a class="tooltip-side-nav" href="#fourPage">通道</a></li>
+        <li><a class="tooltip-side-nav" href="#fivePage">名录</a></li>
+    </ul>
+</div>
+<!--右侧栏结束-->
+
+<!--网站顶部开始-->
+<div class="webtop" id="onePage">
+    <nav class="navbar navbar-inverse navbar-fixed-top" style=" ">
+        <div class="container-fluid">
+            <div class="col-md-offset-4">
+                <form class="navbar-form navbar-left" action="{:url('index/search')}" method="get">
+                    <div class="form-group">
+                        <input type="text" name="keywords" class="form-control" placeholder="请输入关键字">
+                    </div>
+                    <button type="submit" class="btn btn-default">搜索</button>
+                </form>
+            </div>
+            <ul class="nav navbar-nav navbar-right ">
+                <!--如果已经登录，直接显示用户名和权限，如果还没有登录就显示登录注册链接-->
+                {if $Think.session.user_id}
+                <li><a href="#">{$Think.session.user_name}</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">操作 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                       <!-- {eq name="$Think.session.admin_level" value="1"}-->
+
+                     <!--   {/eq}-->
+                        <li><a href="{:url('index/insert')}">发布文章</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="{:url('./admin/user/login')}">管理中心</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="{:url('index/revise')}">修改信息</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="{:url('user/logout')}">退出登录</a></li>
+                    </ul>
+                </li>
+                {else/}
+                <li><a href="{:url('user/login')}">登录</a></li>
+                <li><a href="{:url('user/register')}">注册</a></li>
+                {/if}
+            </ul>
+        </div>
+    </nav>
+</div>
+<!--网站顶部顶部-->
+
+<!--轮播图开始-->
+<div class="" id="myCarousel" style="width: 100%">
+    <div id="carousel-example-generic" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active "></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" style="width: 100%">
+            <div class="item active" style="width: 100%;height: 350px">
+                <a href="#">
+                    <img src="/static/Images/1.jpg" width="100%" height="200px">
+                </a>
+            </div>
+            <div class="item" style="width: 100% ;height: 350px">
+                <a href="#">
+                    <img src="/static/Images/2.jpg" width="100%" height="200px">
+                </a>
+            </div>
+            <div class="item" style="width: 100% ;height: 350px">
+                <a href="#">
+                    <img src="/static/Images/3.jpg" width="100%" height="200px">
+                </a>
+            </div>
+        </div>
+        <a href="#carousel-example-generic" class="left carousel-control" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a href="#carousel-example-generic" class="right carousel-control" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+<!--轮播图结束-->
+
+<!--菜单项开始-->
+<div style="background-color: #1e50a1;width: 100%" id="twoPage">
+    <div class="container topDIV">
+        <ul role="tablist" id="table1" class="nav nav-tabs nav-pills ">
+            <li role="presentation" style="margin-left: -50px"><a href="{:url('index/trans')}">首页</a></li>
+            <!--园区列表下拉菜单开始-->
+            <li role="presentation" class="dropdown">
+                <a href="#" class="dropdown-toggle citymenus"  data-toggle="dropdown">市区选择
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    {volist name="messageList" id="message" }
+                        <li style="height: 25px;">
+                                <a href="{:url('index/message',['name'=>$message.name])}">{$message.name}</a>
+                                <hr>
+                        </li>
+                    {/volist}
+                </ul>
+            </li>
+            <!--园区列表下拉菜单结束-->
+            <li role="presentation"><a href="#zhaoshang">招商引资</a></li>
+            <li role="presentation"><a href="#fourPage">政策公布</a></li>
+            <li role="presentation"><a href="#fivePage">企业名录 </a></li>
+            <li role="presentation"><span class="glyphicon glyphicon-earphone telephones">&nbsp;64201547</span></li>
+        </ul>
+    </div>
+</div>
+<!--菜单项结束-->
+
+<!--简介页面和招商引资页面-->
+<div class="container" id="threePage">
+    <div class="row">
+        <!--简介页面-->
+        <div class="col-md-6">
+            <div class="container-fluid">
+                <div class="page-header">
+                    <h1>河南简介</h1>
+                </div>
+                <article class=" " style="width: 100%;margin-left: 0px;font-size: 20px">
+                    河南省，简称“豫”，中华人民共和国省级行政区。省会郑州，位于中国中部，
+                    截至2019年5月，河南省下辖17个省辖市、1个省直管市、20个县级市、85个县、
+                    52个市辖区。河南素有“九州腹地、十省通衢”之称是全国重要的综合交通
+                    枢纽和人流物流信息流中心。 [3] 2018年，河南省实现地区生产总值48055.86
+                    亿元，同比增长7.6%，第一产业增加值4289.38亿元，同比增长3.3%；第二产业
+                    增加值22034.83亿元，同比增长7.2%；第三产业增加值21731.65亿元，同比增长9.2%。
+                </article>
+            </div>
+        </div>
+        <!--招商引资-->
+        <div>
+            <div class="col-md-6">
+                <div id="zhaoshang">
+                    <div class="page-header">
+                        <h1>招商引资</h1>
+                    </div>
+                    <ul style="font-size: 20px" class="zhaoshangyinzis">
+                       {volist name="artList" id="investment" }
+                            <div style="height: 20px">
+                                <a style="color: black" href="{:url('index/content',['id'=>$investment.id])}">{$investment.title}</a>
+                            </div>
+                        {/volist}
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--政策通道页面-->
+<div class="container " id="fourPage">
+    <div class="page-header">
+        <h1>政策通道</h1>
+    </div>
+    <div class="col-md-4" id="myCarousel1">
+        <div id="carousel-example-generic1" class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic1" data-slide-to="0" class="active "></li>
+                <li data-target="#carousel-example-generic1" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic1" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active" style="width: 100%;">
+                    <a href="#">
+                        <img src="/static/Images/1.jpg" style="height: 200px">
+                    </a>
+                </div>
+                <div class="item" style="width: 100% ;">
+                    <a href="#">
+                        <img src="/static/Images/2.jpg" style="height: 200px">
+                    </a>
+                </div>
+                <div class="item" style="width: 100% ;height: 200px">
+                    <a href="#">
+                        <img src="/static/Images/3.jpg" style="height: 200px">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<!--政策通道-->
+    <div class="col-md-8">
+        <ul style="font-size: 20px; text-align: center;list-style: none" class="zhengcetongdao">
+            {volist name="policyList" id="policy" }
+            <div>
+                <div style="height: 20px">
+                    <h4><a href="{:url('index/policycontent',['id'=>$policy.id])}">{$policy.title}</a></h4>
+                    <hr>
+                </div>
+            </div>
+            {/volist}
+            <div class="text-center">
+                {$policyList|raw}
+            </div>
+        </ul>
+    </div>
+</div>
+
+<!--企业名录-->
+<div class="container" style="text-align: center" id="fivePage">
+    <div class="page-header" style="text-align: center">
+        <h1>企业名录</h1>
+    </div>
+    <p style="font-size: 20px">富强、民主、文明、和谐、自由、平等、公正、法治、爱国、敬业、诚信、友善。</p>
+</div>
+
+<!--相关园区-->
+<div class="container">
+    <div class="container">
+        <ul class="list-unstyled list-inline" style="font-size: 20px;text-align: center">
+            <li><a href="">郑州</a></li>
+            <li><a href="">开封</a></li>
+            <li><a href="">焦作</a></li>
+            <li><a href="">信阳</a></li>
+        </ul>
+    </div>
+</div>
+<!-- 网站信息-->
+
+
+<div class="adressmessage" style="background:#3b3b3f; width: 100%;">
+    <div class="container">
+        <p><a href="">关于我们</a><span style="font-size: 20px;">&nbsp;|&nbsp;</span><a href="">免责声明</a>
+        </p>
+        <p>copyright ©, All Rights Reserved 版权所有 </p>
+    </div>
+</div>
+
+
+<script src="/static/js/jquery-3.4.0.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/bootstrap-paginator.js"></script>
+<script src="/static/js/qunit-1.11.0.js"></script>
+<script src="/static/js/MainPage.js"></script>
+</body>
+</html>

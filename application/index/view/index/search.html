@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文章检索</title>
+</head>
+<body>
+<div class="row">
+    <div class="col-md-10">
+        <div class="page-header">
+            <h2>{$cateName}</h2>
+        </div>
+        {volist name="artList" id="art" empty="$empty"}
+        <div style="font-size: 20px">
+                <h4><a href="{:url('index/content',['id'=>$art.id])}">{$art.title}</a></h4>
+                <p>
+                    发布时间是：{$art.create_time}
+                </p>
+                <div>{$art.content|getArtContent}</div>
+                <hr>
+        </div>
+        {/volist}
+        <div class="text-center">
+            {$artList|raw}
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1583 @@
+---------------------------------------------------------------
+[2019-04-24T14:50:53+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.126393s] [吞吐率：7.91req/s] [内存消耗：2,061.48kb] [文件加载：67]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008499s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.009779s ]
+[ error ] [0]不支持的数据表达式:编号[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\builder\Mysql.php:149]
+---------------------------------------------------------------
+[2019-04-24T14:59:54+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.134033s] [吞吐率：7.46req/s] [内存消耗：2,061.55kb] [文件加载：67]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005362s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.003957s ]
+[ error ] [0]不支持的数据表达式:编号[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\builder\Mysql.php:149]
+---------------------------------------------------------------
+[2019-04-24T15:00:07+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.113992s] [吞吐率：8.77req/s] [内存消耗：2,003.80kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005424s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.003621s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `ID` = 4 LIMIT 1 [ RunTime:0.001526s ]
+---------------------------------------------------------------
+[2019-04-24T15:00:20+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.110249s] [吞吐率：9.07req/s] [内存消耗：2,003.84kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002448s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.004311s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `id` = '4' LIMIT 1 [ RunTime:0.002418s ]
+---------------------------------------------------------------
+[2019-04-24T15:00:21+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.115776s] [吞吐率：8.64req/s] [内存消耗：2,003.84kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010609s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.003390s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `id` = '4' LIMIT 1 [ RunTime:0.000936s ]
+---------------------------------------------------------------
+[2019-04-24T15:00:21+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.100499s] [吞吐率：9.95req/s] [内存消耗：2,003.84kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002603s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.004646s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `id` = '4' LIMIT 1 [ RunTime:0.000629s ]
+---------------------------------------------------------------
+[2019-04-24T15:00:22+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.113266s] [吞吐率：8.83req/s] [内存消耗：2,003.84kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012109s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.003728s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `id` = '4' LIMIT 1 [ RunTime:0.000786s ]
+---------------------------------------------------------------
+[2019-04-24T15:00:22+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.095771s] [吞吐率：10.44req/s] [内存消耗：2,003.84kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002349s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.004650s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `id` = '4' LIMIT 1 [ RunTime:0.000632s ]
+---------------------------------------------------------------
+[2019-04-24T15:01:55+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.127283s] [吞吐率：7.86req/s] [内存消耗：2,061.52kb] [文件加载：67]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003838s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.004381s ]
+[ error ] [0]不支持的数据表达式:编号[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\builder\Mysql.php:149]
+---------------------------------------------------------------
+[2019-04-24T15:34:39+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.140259s] [吞吐率：7.13req/s] [内存消耗：2,061.24kb] [文件加载：67]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005918s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.005871s ]
+[ error ] [0]不支持的数据表达式:编号[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\builder\Mysql.php:149]
+---------------------------------------------------------------
+[2019-04-24T15:34:56+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.130343s] [吞吐率：7.67req/s] [内存消耗：2,003.84kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005165s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.004659s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `id` = '4' LIMIT 1 [ RunTime:0.001095s ]
+---------------------------------------------------------------
+[2019-04-24T16:02:19+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.103553s] [吞吐率：9.66req/s] [内存消耗：2,003.84kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005413s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.005306s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `id` = '4' LIMIT 1 [ RunTime:0.000904s ]
+---------------------------------------------------------------
+[2019-04-24T16:02:20+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.100146s] [吞吐率：9.99req/s] [内存消耗：2,003.84kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012112s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.003857s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `id` = '4' LIMIT 1 [ RunTime:0.000968s ]
+---------------------------------------------------------------
+[2019-04-24T16:02:20+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.099086s] [吞吐率：10.09req/s] [内存消耗：2,003.84kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003444s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.003923s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `id` = '4' LIMIT 1 [ RunTime:0.001113s ]
+---------------------------------------------------------------
+[2019-04-24T16:02:21+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.083711s] [吞吐率：11.95req/s] [内存消耗：2,003.84kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002040s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.001552s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `id` = '4' LIMIT 1 [ RunTime:0.001401s ]
+---------------------------------------------------------------
+[2019-04-24T16:02:21+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.084703s] [吞吐率：11.81req/s] [内存消耗：2,003.84kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003404s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.001960s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `id` = '4' LIMIT 1 [ RunTime:0.000847s ]
+---------------------------------------------------------------
+[2019-04-24T16:02:51+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.094011s] [吞吐率：10.64req/s] [内存消耗：2,005.75kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011643s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.001581s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `id` = '4' LIMIT 1 [ RunTime:0.000938s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `id` = '5' LIMIT 1 [ RunTime:0.000839s ]
+---------------------------------------------------------------
+[2019-04-24T16:04:07+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.095253s] [吞吐率：10.50req/s] [内存消耗：2,005.45kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010618s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.001633s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `id` = '4' LIMIT 1 [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `ID` = 5 LIMIT 1 [ RunTime:0.000872s ]
+---------------------------------------------------------------
+[2019-04-24T16:04:08+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.093345s] [吞吐率：10.71req/s] [内存消耗：2,005.45kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002258s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.001410s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `id` = '4' LIMIT 1 [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `ID` = 5 LIMIT 1 [ RunTime:0.000819s ]
+---------------------------------------------------------------
+[2019-04-24T16:04:08+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.086706s] [吞吐率：11.53req/s] [内存消耗：2,005.45kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002795s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.002193s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `id` = '4' LIMIT 1 [ RunTime:0.001040s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `ID` = 5 LIMIT 1 [ RunTime:0.000772s ]
+---------------------------------------------------------------
+[2019-04-24T16:04:14+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.103167s] [吞吐率：9.69req/s] [内存消耗：2,005.45kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010634s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.001643s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `id` = '4' LIMIT 1 [ RunTime:0.005556s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `ID` = 6 LIMIT 1 [ RunTime:0.001115s ]
+---------------------------------------------------------------
+[2019-04-24T16:09:41+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.099741s] [吞吐率：10.03req/s] [内存消耗：2,006.42kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003422s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.002207s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `id` = '4' LIMIT 1 [ RunTime:0.000983s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `ID` = 6 LIMIT 1 [ RunTime:0.000978s ]
+---------------------------------------------------------------
+[2019-04-24T16:09:43+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/find
+[运行时间：0.095233s] [吞吐率：10.50req/s] [内存消耗：2,006.42kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002762s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.001775s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `id` = '4' LIMIT 1 [ RunTime:0.000914s ]
+[ sql ] [ SQL ] SELECT `ID` AS `id`,`Name` AS `name` FROM `city` WHERE  `ID` = 6 LIMIT 1 [ RunTime:0.000836s ]
+---------------------------------------------------------------
+[2019-04-24T16:11:34+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/select
+[运行时间：0.131234s] [吞吐率：7.62req/s] [内存消耗：2,064.09kb] [文件加载：67]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004269s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.002468s ]
+[ error ] [0]查询表达式错误:'ID'[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Builder.php:309]
+---------------------------------------------------------------
+[2019-04-24T16:12:47+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/select
+[运行时间：0.108442s] [吞吐率：9.22req/s] [内存消耗：2,064.37kb] [文件加载：67]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002209s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.003659s ]
+[ error ] [0]查询表达式错误:'ID'[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Builder.php:309]
+---------------------------------------------------------------
+[2019-04-24T16:12:48+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/select
+[运行时间：0.105438s] [吞吐率：9.48req/s] [内存消耗：2,064.37kb] [文件加载：67]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002836s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.004614s ]
+[ error ] [0]查询表达式错误:'ID'[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Builder.php:309]
+---------------------------------------------------------------
+[2019-04-24T16:13:09+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/select
+[运行时间：0.103036s] [吞吐率：9.71req/s] [内存消耗：2,064.37kb] [文件加载：67]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002261s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.003993s ]
+[ error ] [0]查询表达式错误:'ID'[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Builder.php:309]
+---------------------------------------------------------------
+[2019-04-24T16:13:10+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/select
+[运行时间：0.094149s] [吞吐率：10.62req/s] [内存消耗：2,064.37kb] [文件加载：67]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002542s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.004186s ]
+[ error ] [0]查询表达式错误:'ID'[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Builder.php:309]
+---------------------------------------------------------------
+[2019-04-24T16:13:10+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/select
+[运行时间：0.114703s] [吞吐率：8.72req/s] [内存消耗：2,064.37kb] [文件加载：67]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001995s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.003091s ]
+[ error ] [0]查询表达式错误:'ID'[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Builder.php:309]
+---------------------------------------------------------------
+[2019-04-24T16:13:10+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/select
+[运行时间：0.109003s] [吞吐率：9.17req/s] [内存消耗：2,064.37kb] [文件加载：67]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011615s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.011476s ]
+[ error ] [0]查询表达式错误:'ID'[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Builder.php:309]
+---------------------------------------------------------------
+[2019-04-24T16:13:17+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/select
+[运行时间：0.127537s] [吞吐率：7.84req/s] [内存消耗：2,064.37kb] [文件加载：67]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002395s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.003632s ]
+[ error ] [0]查询表达式错误:'ID'[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Builder.php:309]
+---------------------------------------------------------------
+[2019-04-24T16:13:18+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/select
+[运行时间：0.103944s] [吞吐率：9.62req/s] [内存消耗：2,064.37kb] [文件加载：67]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003133s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.004299s ]
+[ error ] [0]查询表达式错误:'ID'[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Builder.php:309]
+---------------------------------------------------------------
+[2019-04-24T16:13:18+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/select
+[运行时间：0.110095s] [吞吐率：9.08req/s] [内存消耗：2,064.37kb] [文件加载：67]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002790s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.003914s ]
+[ error ] [0]查询表达式错误:'ID'[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Builder.php:309]
+---------------------------------------------------------------
+[2019-04-24T16:13:47+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/select
+[运行时间：0.222366s] [吞吐率：4.50req/s] [内存消耗：2,690.20kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002868s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.001460s ]
+[ sql ] [ SQL ] SELECT `ID`,`Name`,`District` FROM `city` WHERE  `ID` >= 5 [ RunTime:0.011155s ]
+---------------------------------------------------------------
+[2019-04-24T16:14:00+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/select
+[运行时间：0.097952s] [吞吐率：10.21req/s] [内存消耗：2,007.80kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=1|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003156s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.003833s ]
+[ sql ] [ SQL ] SELECT `ID`,`Name`,`District` FROM `city` WHERE  `ID` <= 5 [ RunTime:0.000963s ]
+---------------------------------------------------------------
+[2019-04-24T16:28:09+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/insert
+[运行时间：0.105498s] [吞吐率：9.48req/s] [内存消耗：2,004.62kb] [文件加载：63]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004508s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.005244s ]
+[ sql ] [ SQL ] INSERT INTO `city` (`Name` , `CountryCode` , `District` , `Population`) VALUES ('Chinaa' , 'IDN' , 'java west' , 111111) [ RunTime:0.003710s ]
+---------------------------------------------------------------
+[2019-04-24T16:35:22+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/insert
+[运行时间：0.094846s] [吞吐率：10.54req/s] [内存消耗：2,005.02kb] [文件加载：63]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005309s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.005763s ]
+[ sql ] [ SQL ] REPLACE INTO `city` (`Name` , `CountryCode` , `District` , `Population`) VALUES ('Chinaaa' , 'IDN' , 'java west' , 111111) [ RunTime:0.002411s ]
+---------------------------------------------------------------
+[2019-04-24T16:35:56+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/insert
+[运行时间：0.099402s] [吞吐率：10.06req/s] [内存消耗：2,005.01kb] [文件加载：63]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002155s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.003287s ]
+[ sql ] [ SQL ] INSERT INTO `city` (`Name` , `CountryCode` , `District` , `Population`) VALUES ('Chinaaaaa' , 'IDN' , 'java west' , 111111) [ RunTime:0.002137s ]
+---------------------------------------------------------------
+[2019-04-24T16:44:22+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/insertAll
+[运行时间：0.100618s] [吞吐率：9.94req/s] [内存消耗：2,012.59kb] [文件加载：63]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004302s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.004743s ]
+[ sql ] [ SQL ] INSERT INTO `city` (`Name` , `CountryCode` , `District` , `Population`) VALUES ( 'Chinb','IDN','java west',111111 ) , ( 'Chinbb','IDN','java west',111111 ) , ( 'Chinbbb','IDN','java west',111111 ) [ RunTime:0.003453s ]
+---------------------------------------------------------------
+[2019-04-24T16:48:09+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/uodate
+[运行时间：0.085163s] [吞吐率：11.74req/s] [内存消耗：1,345.27kb] [文件加载：62]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-24T16:48:14+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/update
+[运行时间：0.145700s] [吞吐率：6.86req/s] [内存消耗：2,007.64kb] [文件加载：63]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003616s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.005593s ]
+[ sql ] [ SQL ] UPDATE `city`  SET `Name` = 'aaa'  WHERE  `ID` = 1 [ RunTime:0.003713s ]
+---------------------------------------------------------------
+[2019-04-24T16:50:19+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/update
+[运行时间：0.124020s] [吞吐率：8.06req/s] [内存消耗：2,007.70kb] [文件加载：63]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011906s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.015564s ]
+[ sql ] [ SQL ] UPDATE `city`  SET `Name` = 'bbb'  WHERE  `ID` = 2 [ RunTime:0.002242s ]
+---------------------------------------------------------------
+[2019-04-24T16:51:45+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/delete
+[运行时间：0.094283s] [吞吐率：10.61req/s] [内存消耗：2,008.10kb] [文件加载：63]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004295s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.001737s ]
+[ sql ] [ SQL ] DELETE FROM `city` WHERE  `ID` = 1 [ RunTime:0.003133s ]
+---------------------------------------------------------------
+[2019-04-24T17:01:16+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/query
+[运行时间：0.115068s] [吞吐率：8.69req/s] [内存消耗：2,028.48kb] [文件加载：69]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006388s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''city' WHERE 'ID' IN (4,5,6)' at line 1[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2019-04-24T17:06:59+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/query
+[运行时间：0.113079s] [吞吐率：8.84req/s] [内存消耗：2,028.76kb] [文件加载：69]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002763s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''city' where 'ID' in (4,5,6)' at line 1[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2019-04-24T17:08:40+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/query
+[运行时间：0.106989s] [吞吐率：9.35req/s] [内存消耗：2,028.63kb] [文件加载：69]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004447s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''city' where ID=1' at line 1[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2019-04-24T17:09:18+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/query
+[运行时间：0.109333s] [吞吐率：9.15req/s] [内存消耗：2,028.63kb] [文件加载：69]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003600s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''city' where ID=1' at line 1[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2019-04-24T17:09:19+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/query
+[运行时间：0.097845s] [吞吐率：10.22req/s] [内存消耗：2,028.63kb] [文件加载：69]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002105s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''city' where ID=1' at line 1[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2019-04-24T17:09:20+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/query
+[运行时间：0.100576s] [吞吐率：9.94req/s] [内存消耗：2,028.63kb] [文件加载：69]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002517s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''city' where ID=1' at line 1[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2019-04-24T19:44:40+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/query
+[运行时间：0.181751s] [吞吐率：5.50req/s] [内存消耗：2,005.53kb] [文件加载：66]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MySQL server[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:528]
+---------------------------------------------------------------
+[2019-04-24T19:45:44+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/query
+[运行时间：0.104350s] [吞吐率：9.58req/s] [内存消耗：2,005.81kb] [文件加载：66]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MySQL server[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:528]
+---------------------------------------------------------------
+[2019-04-24T19:46:46+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/query
+[运行时间：0.136131s] [吞吐率：7.35req/s] [内存消耗：2,028.63kb] [文件加载：69]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004504s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''city' where ID=1' at line 1[F:\PHPTutorial\WWW\tpdachuang\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+[2019-04-24T19:47:07+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo5/delete
+[运行时间：0.126858s] [吞吐率：7.88req/s] [内存消耗：2,008.10kb] [文件加载：63]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|4; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011997s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.015608s ]
+[ sql ] [ SQL ] DELETE FROM `city` WHERE  `ID` = 1 [ RunTime:0.004972s ]
+---------------------------------------------------------------
+[2019-04-24T20:05:35+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo6/get
+[运行时间：0.107835s] [吞吐率：9.27req/s] [内存消耗：2,298.73kb] [文件加载：71]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004094s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.003777s ]
+[ sql ] [ SQL ] SELECT * FROM `city` WHERE  `id` = '3' LIMIT 1 [ RunTime:0.002280s ]
+---------------------------------------------------------------
+[2019-04-24T20:07:51+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo6/get
+[运行时间：0.128324s] [吞吐率：7.79req/s] [内存消耗：2,298.62kb] [文件加载：71]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010831s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.004931s ]
+[ sql ] [ SQL ] SELECT * FROM `city` WHERE  `id` = '3' LIMIT 1 [ RunTime:0.001185s ]
+[ sql ] [ SQL ] SELECT `id`,`Name` FROM `city` WHERE  `id` = '5' LIMIT 1 [ RunTime:0.004950s ]
+---------------------------------------------------------------
+[2019-04-24T20:15:42+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo6/getall
+[运行时间：0.413606s] [吞吐率：2.42req/s] [内存消耗：3,320.84kb] [文件加载：73]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003872s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.004099s ]
+[ sql ] [ SQL ] SELECT * FROM `city` [ RunTime:0.026410s ]
+---------------------------------------------------------------
+[2019-04-24T20:16:23+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo6/getall
+[运行时间：0.138510s] [吞吐率：7.22req/s] [内存消耗：2,356.00kb] [文件加载：73]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002498s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.005040s ]
+[ sql ] [ SQL ] SELECT * FROM `city` WHERE  `id` IN ('1','2','3') [ RunTime:0.002098s ]
+---------------------------------------------------------------
+[2019-04-24T20:18:10+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo6/getall
+[运行时间：0.115691s] [吞吐率：8.64req/s] [内存消耗：2,354.20kb] [文件加载：73]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011894s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.004701s ]
+[ sql ] [ SQL ] SELECT `id`,`Name` FROM `city` WHERE  `id` <= '5' [ RunTime:0.003761s ]
+---------------------------------------------------------------
+[2019-04-24T20:19:17+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo6/getall
+[运行时间：0.099918s] [吞吐率：10.01req/s] [内存消耗：2,356.17kb] [文件加载：73]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002140s ] mysql:host=127.0.0.1;dbname=world;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `city` [ RunTime:0.004451s ]
+[ sql ] [ SQL ] SELECT `id`,`Name` FROM `city` WHERE  `id` <= '5' [ RunTime:0.000947s ]
+[ sql ] [ SQL ] SELECT `id`,`Name` FROM `city` WHERE  `id` IN ('2','3','4') [ RunTime:0.001296s ]
+---------------------------------------------------------------
+[2019-04-24T20:25:01+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo7/test1
+[运行时间：0.073181s] [吞吐率：13.66req/s] [内存消耗：1,460.59kb] [文件加载：63]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-24T20:26:33+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo7/test1
+[运行时间：0.115187s] [吞吐率：8.68req/s] [内存消耗：1,350.95kb] [文件加载：61]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-24T20:26:34+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo7/test1
+[运行时间：0.075203s] [吞吐率：13.30req/s] [内存消耗：1,350.95kb] [文件加载：61]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-24T20:26:34+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo7/test1
+[运行时间：0.063887s] [吞吐率：15.65req/s] [内存消耗：1,350.95kb] [文件加载：61]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-24T20:28:36+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo7/test1
+[运行时间：0.085246s] [吞吐率：11.73req/s] [内存消耗：1,462.97kb] [文件加载：64]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-04-24T20:41:14+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo7/test2
+[运行时间：0.074887s] [吞吐率：13.35req/s] [内存消耗：1,463.81kb] [文件加载：63]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\demo7\test2.html [ array (
+  0 => 'name',
+  1 => 'age',
+  2 => 'sex',
+  3 => 'salary',
+) ]
+---------------------------------------------------------------
+[2019-04-24T21:04:38+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo7/test2
+[运行时间：0.097287s] [吞吐率：10.28req/s] [内存消耗：1,465.82kb] [文件加载：63]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\demo7\test2.html [ array (
+  0 => 'name',
+  1 => 'age',
+  2 => 'sex',
+  3 => 'salary',
+  4 => 'goods',
+) ]
+---------------------------------------------------------------
+[2019-04-24T21:05:37+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo7/test2
+[运行时间：0.095169s] [吞吐率：10.51req/s] [内存消耗：1,496.02kb] [文件加载：68]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\demo7\test2.html [ array (
+  0 => 'name',
+  1 => 'age',
+  2 => 'sex',
+  3 => 'salary',
+  4 => 'goods',
+) ]
+[ error ] [8]Array to string conversion[F:\PHPTutorial\WWW\tpdachuang\runtime\temp\7219668a6d8b13f9825afbd285ab4614.php:10]
+---------------------------------------------------------------
+[2019-04-24T21:06:29+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo7/test2
+[运行时间：0.104699s] [吞吐率：9.55req/s] [内存消耗：1,466.13kb] [文件加载：63]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\demo7\test2.html [ array (
+  0 => 'name',
+  1 => 'age',
+  2 => 'sex',
+  3 => 'salary',
+  4 => 'goods',
+) ]
+---------------------------------------------------------------
+[2019-04-24T21:11:19+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo7/test2
+[运行时间：0.103006s] [吞吐率：9.71req/s] [内存消耗：1,383.41kb] [文件加载：65]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义变量: obj[F:\PHPTutorial\WWW\tpdachuang\application\index\controller\Demo7.php:47]
+---------------------------------------------------------------
+[2019-04-24T21:12:23+08:00] ::1 GET www.tpdachuang.com/index.php/index/Demo7/test2
+[运行时间：0.077518s] [吞吐率：12.90req/s] [内存消耗：1,467.56kb] [文件加载：63]
+[ info ] [ LANG ] F:\PHPTutorial\WWW\tpdachuang\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=7170657280',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.tpdachuang.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\PHPTutorial\WWW\tpdachuang\application\index\view\demo7\test2.html [ array (
+  0 => 'name',
+  1 => 'age',
+  2 => 'sex',
+  3 => 'salary',
+  4 => 'goods',
+  5 => 'info',
+) ]

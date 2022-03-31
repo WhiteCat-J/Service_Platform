@@ -1,0 +1,28 @@
+{layout name="public/layout" /}
+<h4 class="text-center text-success">政策文章管理</h4>
+<table class="table table-default table-hover text-center">
+    <tr>
+        <td>园区名称</td>
+        <td>地址</td>
+        <td>联系电话</td>
+        <td colspan="2">操作</td>
+    </tr>
+    {volist name="messageList" id="message" empty="$empty"}
+    <tr>
+        <td>{$message.name}</td>
+        <td>{$message.address}</td>
+        <td>{$message.phone}</td>
+        <td><a href="" onclick="dele(); return false">删除</a></td>
+    </tr>
+    {/volist}
+</table>
+<!--分类添加操作-->
+<div class="text-center">{$messageList|raw}</div>
+<a class="btn btn-info" href="{:url('message/messageAdd')}" role="button">添加分类</a>
+<script>
+    function dele() {
+        if (confirm('您真的要删除吗？'==true)){
+            window.location.href="{:url('/admin/message/doDelete',['name'=>$message.name])}"+"?name="+name;
+        }
+    }
+</script>

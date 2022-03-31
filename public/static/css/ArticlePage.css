@@ -1,0 +1,88 @@
+/* 顶部类*/
+.webtop a{
+    font-size: 20px;
+}
+
+/*背景图*/
+.myCarousel{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+#myCarousel{
+    background-image: url("../Images/1.jpg");
+}
+
+/*招商引资*/
+#bp-3-element-sm-test{
+    margin-left: 100px;
+}
+#bp-3-element-sm-test a{
+    font-size: 18px;
+}
+
+.zhaoshangyinzis p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.zhaoshangyinzis a{
+    color: black;
+    font-size: 16px;
+}
+
+.citymenus mover{
+    display: block;
+}
+.menuxiang a{
+    color: white;
+    margin: 0 50px ;
+    font-size: 20px;
+
+}
+.telephones {
+    display: block;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 150px;
+    color: white;
+}
+/*政策通道*/
+
+#bp-3-element-sm-test1{
+    margin-left: 100px;
+}
+#bp-3-element-sm-test1 a{
+    font-size: 18px;
+}
+
+.zhengcetongdao a{
+    color: black;
+    font-size: 16px;
+
+}
+
+/*网站信息*/
+.adressmessage div{
+    width: 600px;
+    margin-right: 400px;
+    font-size: 20px ;
+    color: white ;
+}
+
+.adressmessage a {
+    color: white;
+}
+.adressmessage a:hover{
+    color: #0d8044;
+}
+.adressmessage p{
+    text-align: center;
+    color: white;
+}
+
+
+
+p{
+    text-indent: 2em;
+}

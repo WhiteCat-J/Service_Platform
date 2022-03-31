@@ -1,0 +1,29 @@
+{layout name="public/layout" /}
+<h4 class="text-center text-success">政策文章管理</h4>
+<table class="table table-default table-hover text-center">
+    <tr>
+        <td>ID</td>
+        <td>地区</td>
+        <td>标题</td>
+        <td>创建时间</td>
+        <td colspan="2">操作</td>
+    </tr>
+    {volist name="policyList" id="policy" empty="$empty"}
+    <tr>
+        <td>{$policy.id}</td>
+        <td>{$policy.city_name}</td>
+        <td class="text-center">{$policy.title}</td>
+        <td>{$policy.create_time}</td>
+        <td><a href="" onclick="dele({$policy.id}); return false">删除</a></td>
+    </tr>
+    {/volist}
+</table>
+<!--分类添加操作-->
+<div class="text-center">{$policyList|raw}</div>
+<script>
+    function dele(id) {
+        if (confirm('您真的要删除吗？'==true)){
+            window.location.href="{:url('/admin/policy/doDelete')}"+"?id="+id;
+        }
+    }
+</script>
